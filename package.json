@@ -1,0 +1,29 @@
+{
+  "name": "radius-user-manager",
+  "version": "0.0.0",
+  "description": "radiusのユーザーを追加したり消したりするツール(が欲しい)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "ts-node src/server/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaminchu/radius-user-manager.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaminchu/radius-user-manager/issues"
+  },
+  "homepage": "https://github.com/kaminchu/radius-user-manager#readme",
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "express": "^4.16.3"
+  }
+}
